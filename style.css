@@ -1,0 +1,48 @@
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #96f5f8; /* El color del fondo de la página web */
+    color: #303030; /* El color del texto*/ 
+}
+h1 {
+    color: #000b3a; /* El color de la cabecera */
+    font-size: 60px; /* El tamaño de la fuente de la cabecera */
+    font-family: "Bungee Spice", sans-serif;
+}
+
+h2 {
+    color: #000b3a; /* El color de la cabecera */
+    font-size: 56px; /* El tamaño de la fuente de la cabecera */
+    font-family: Arial, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+h3 {
+    color: #001986; /* El color de la cabecera */
+    font-size: 48px; /* El tamaño de la fuente de la cabecera */
+    font-family: Arial, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+p {
+    color: #000724; /* El color de la cabecera */
+    font-size: 40px; /* El tamaño de la fuente de la cabecera */
+    font-family: Arial, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+ul {
+    color: #0011ff; /* El color de la cabecera */
+    font-size: 36px; /* El tamaño de la fuente de la cabecera */
+    font-family: Arial, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+.reducir_dependencia{
+    color: #004200; /* El color de la cabecera */
+    font-size: 36px; /* El tamaño de la fuente de la cabecera */
+    font-family: Arial, serif; /* La familia tipográfica utilizada en la cabecera */
+}
