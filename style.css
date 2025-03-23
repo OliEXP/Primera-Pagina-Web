@@ -4,6 +4,35 @@
     font-style: normal;
   }
 
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    30% {
+        color: #0003be;
+      }
+
+    45% {
+      color: #000146;
+    }
+
+    60% {
+        color: #000000;
+      }
+
+    75% {
+        color: #000146;
+      }
+    
+    90% {
+        color: #0003be;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
 
 body {
     font-family: Arial,  sans-serif; /* Familia de fuentes */
@@ -11,7 +40,8 @@ body {
     background-color: #96f5f8; /* El color del fondo de la página web */
     color: #303030; /* El color del texto*/
 }
-h1 {
+h1{
+    animation: color-change 5s infinite;
     display: flex;
     justify-content: center;
     color: #000b3a; /* El color de la cabecera */
@@ -46,6 +76,7 @@ ul {
     color: #0011ff; /* El color de la cabecera */
     font-size: 36px; /* El tamaño de la fuente de la cabecera */
     font-family: Arial, serif; /* La familia tipográfica utilizada en la cabecera */
+    
 }
 
 .reducir_dependencia{
@@ -55,7 +86,17 @@ ul {
 }
 
     
-img {
-    display: flex;
-    justify-content: center;
+.imagen_1 {
+    display: block;
+    margin: auto;
+}
+
+.imagen_2 {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }
